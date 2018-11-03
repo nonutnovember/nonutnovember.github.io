@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>No Nut November 2018</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        
+        .timestamp {
+            margin: 0 auto;
+            width: 500px;
+            border-color: white;
+            border-width: 1px;
+            border-style: solid;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        #timestamp {
+            
+            margin-top: 5%;
+            
+        }
+        
+        #title {
+            font-size: 30px;
+        }
+        #day {
+            font-size: 20px;
+        }
+        ul {
+            text-align: left;
+        }
+        .day {
+            width: 38px;
+            height: 38px;
+            display: inline-block;
+            border-color: white;
+            border-width: 1px;
+            border-style: solid;
+        }
+        .dayu {
+            width: 38px;
+            height: 38px;
+            display: inline-block;
+            border-color: gray;
+            border-width: 1px;
+            border-style: solid;
+        }
+        .day b {
+            color: lightgray;
+        }
+        #calender {
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 500px) {
+            .timestamp {
+                width: 98%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        
+        <div id="timestamp"  class="timestamp">
+            <span id="title"><b>NO NUT NOVEMBER 18</b></span><br/>
+            <span id="day"></span>        
+        </div>
+
+        <div class="timestamp">
+            <table style="width:100%">
+                <tr>
+                    <th>Day</th>
+                    <th>Powerup</th>
+                    <th>Side effects</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>None</td> 
+                    <td>Urge to nut</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>None</td> 
+                    <td>Stronger urge</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>N/A</td> 
+                    <td>Headaches</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="timestamp">
+            <b>List of rules:</b>
+            <ul>
+                <li>No sex, masturbation or nutting in anyway.</li>
+                <li>Pornography and boners allowed - just no nutting</li>
+                <li>A wet dream is allowed once. A second one will disqualify you.</li>
+                <li>Strikes don't count. You have one shot, don't miss it or you'll be out.</li>
+                <li>Destroy Dick December will be allowed for victors.</li>
+                <li>All coupons are not allowed.</li>
+                <li>If your birthday is this month, you get one pass.</li>
+                <li><b>Literally just don't nut.</b></li>
+            </ul>
+        </div>
+
+        <div class="timestamp">
+            <div style="max-width: 300px;">
+                <div id="calender">
+                    <span class="day">
+                    1</span><span class="day">
+                    <b>2</b></span><span class="day">
+                    3</span><span class="day">
+                    4</span><span class="day">
+                    5</span><span class="day">
+                    6</span><span class="day">
+                    7</span>
+                </div>
+                <div>
+                    <span class="day">
+                    8</span><span class="day">
+                    9</span><span class="day">
+                    10</span><span class="day">
+                    11</span><span class="day">
+                    12</span><span class="day">
+                    13</span><span class="day">
+                    14</span>
+                </div>
+                <div>
+                <span class="day">
+                    15</span><span class="day">
+                    16</span><span class="day">
+                    17</span><span class="day">
+                    18</span><span class="day">
+                    19</span><span class="day">
+                    20</span><span class="day">
+                    21</span>
+                </div>
+                <div>
+                <span class="day">
+                    22</span><span class="day">
+                    23</span><span class="day">
+                    24</span><span class="day">
+                    25</span><span class="day">
+                    26</span><span class="day">
+                    27</span><span class="day">
+                    28</span>
+                </div>
+                <div>
+                <span class="day">
+                    29</span><span class="day">
+                    30</span><span class="dayu">
+                    .</span><span class="dayu">
+                        .</span><span class="dayu">
+                        .</span><span class="dayu">
+                        .</span><span class="dayu">
+                        .</span>
+            </div>
+        </div>
+        
+        <script>
+            const date = new Date();
+            document.getElementById("day").innerHTML = "Day " + date.getDate(); 
+        </script>
+    </div>
+</body>
+</html>
